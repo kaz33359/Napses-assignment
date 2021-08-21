@@ -1,0 +1,174 @@
+/* body {
+padding: 10px 20px 0px 10px;
+} */
+html {
+    scroll-behavior: smooth;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 10px 30px 50px;
+
+}
+
+/* Package */
+
+.package-content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.session {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+    width: 220px;
+    height: 40px;
+    background-color: #D81E36;
+    color: #fff;
+
+}
+
+.session a {
+    color: #fff;
+}
+
+.price {
+    width: 150px;
+}
+
+.offer {
+    width: 100px;
+}
+
+.select-package {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+    width: 300px;
+    height: 40px;
+    background-color: #185CA9;
+    color: #fff;
+}
+
+.select-package a {
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+/* .price {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.month{
+font-size: 20px;
+} */
+
+/* Package End */
+
+
+
+/* Testmonial */
+
+/* section.testimonial {
+    padding: 40px 10px 30px 50px;
+
+} */
+
+img.testimonial-user {
+    margin-left: 50px;
+}
+
+
+
+.testimonial-content {
+    margin-left: 50px;
+}
+
+/* End Testmonial  */
+
+
+
+/* Footer */
+footer {
+    padding: 40px 10px 30px 50px;
+    color: #fff;
+}
+
+.bg {
+    background-image: url("../images/footer-Rectangle.png");
+
+    /* height: 100%; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul.social {
+    margin: 0px !important;
+}
+
+ul.social li {
+    display: inline;
+    color: #fff;
+    padding-right: 20px;
+}
+
+footer ul li {
+    padding-top: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+/* ENd Footer */
+
+
+.muted {
+    color: #686868;
+}
+
+.inline {
+    display: inline;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
