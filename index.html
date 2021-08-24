@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>Active Club</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,9 +20,9 @@
 </head>
 
 <body>
-    <hreader>
+    <hreader class="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
+            <a class="navbar-brand ml-10" href="#"><img src="assets/images/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,32 +49,70 @@
 
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <button class="btn btn-outline-success my-2 mr-2 my-sm-0" type="submit">Book A Free trial</button>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+                    <button class="free-trial btn  my-2 mr-2 my-sm-0" type="submit">Book A Free trial</button>
+                    <button class="login my-2 btn my-sm-0" type="submit">Login</button>
                 </form>
             </div>
         </nav>
     </hreader>
     <main>
+        <section class="bg-hero">
+            <img class="overlay-doted" src="assets/images/dots-bg.png" alt="">
+            <h1 class="title">active yoga club program subscription</h1>
+            <img class="overlay-age" src="assets/images/ages.png" alt="">
+            <img class="overlay-lines" src="assets/images/Group 2.png" alt="">
+            <div class="white">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 activity">
+                            <img class="activity-img" src="assets/images/activity.png" alt="">
+
+                        </div>
+                        <div class="col-lg-6 about-yoga">
+                            <img class="about-yoga-bg" src="assets/images/Rectangle41.png" alt="">
+                            <div class="about-yoga-content">
+                                <h2 class="about-yoga-title"><b>ABOUT YOGA PROGRAM</b></h2>
+                                <p class="muted about-yoga-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero amet,
+                                    mollitia nihil soluta veritatis harum dicta ipsa laborum aperiam, quos cupiditate
+                                    quibusdam voluptatem neque alias iusto, odio praesentium officiis.</p>
+                                <ul class="about-yoga-features">
+                                    <li class="about-yoga-features-list"> 
+                                        <p><img class="" src="assets/images/tick-mark.png" alt=""><span
+                                                class="muted ml-10">Co - oriented Yoga session</span></p>
+                                    </li>
+                                    <li class="about-yoga-features-list"> 
+                                        <p><img class="" src="assets/images/tick-mark.png" alt=""><span
+                                                class="muted ml-10">Yoga focused Trevia</span></p>
+                                    </li>
+                                </ul>
+                                <a class="select-package" href=""> select a package now! </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
         <!-- package -->
-        <section class="package mb-5 mt-5">
+        <section class="package mb-5 mt-40">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="package-content">
-                            <ul class="">
-                                <li class="session"><a href=""> 8 Sessions </a></li>
+                        <div class="">
+                            <ul class="package-content">
+                                <li class="session mt-20"><a href=""> 8 Sessions </a></li>
                                 <li class=" mt-20">
                                     <!-- <p><span class="price"><sup>₹</sup>2000</span> <span class="muted month">/
                                             Months</span></p> -->
-                                    <img class="price" src="assets/images/amount1.png"  alt="">
+                                    <img class="price" src="assets/images/amount1.png" alt="">
                                 </li>
                                 <li class=" mt-20">
                                     <img class="price" src="assets/images/amount2.png" alt="">
                                     <img class="offer" src="assets/images/30off-blue.png" alt="">
                                 </li>
                                 <li class=" mt-20">
-                                    <img class="offer" src="assets/images/20off-yellow.png" alt="">
+                                    <img class="offer l-100" src="assets/images/20off-yellow.png" alt="">
                                     <img class="price" src="assets/images/amount2.png" alt="">
                                 </li>
                                 <li class=" mt-20">
@@ -86,10 +125,84 @@
                                 </li>
 
                                 <li class=" center mt-20">
-                                    <p><img src="assets/images/tick-mark.png" alt=""> <span class="muted">Text</span></p>
+                                    <p><img src="assets/images/tick-mark.png" alt=""> <span class="muted ml-10">8 Certified Trainers Session (45 min each)</span>
+                                    </p>
                                 </li>
 
-                                <li class="select-package mt-40"><a href=""> select a package now </a></li>
+                                <li class="select-package mt-40 mb-20"><a href=""> select a package now! </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="">
+                            <ul class="package-content">
+                                <li class="session mt-20"><a href=""> 16 Sessions </a></li>
+                                <li class=" mt-20">
+                                    <!-- <p><span class="price"><sup>₹</sup>2000</span> <span class="muted month">/
+                                            Months</span></p> -->
+                                    <img class="price" src="assets/images/amount1.png" alt="">
+                                </li>
+                                <li class=" mt-20">
+                                    <img class="price" src="assets/images/amount2.png" alt="">
+                                    <img class="offer" src="assets/images/30off-blue.png" alt="">
+                                </li>
+                                <li class=" mt-20">
+                                    <p class="bestseller">BESTSELLER <i class="far fa-gem"></i></p>
+                                    <img class="offer l-100" src="assets/images/20off-yellow.png" alt="">
+                                    <img class="price" src="assets/images/amount2.png" alt="">
+                                </li>
+                                <li class=" mt-20">
+                                    <img class="price" src="assets/images/amount2.png" alt="">
+                                    <img class="offer" src="assets/images/30off-green.png" alt="">
+                                </li>
+
+                                <li class=" center mt-40">
+                                    <p><b>Batches</b></p>
+                                </li>
+
+                                <li class=" center mt-20">
+                                    <p><img src="assets/images/tick-mark.png" alt=""> <span class="muted ml-10">15 Certified Trainers Session (45 min each)</span>
+                                    </p>
+                                </li>
+
+                                <li class="select-package mt-40 mb-20"><a href=""> select a package now! </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="">
+                            <ul class="package-content">
+                                <li class="session mt-20"><a href=""> Unlimited Sessions </a></li>
+                                <li class=" mt-20">
+                                    <!-- <p><span class="price"><sup>₹</sup>2000</span> <span class="muted month">/
+                                            Months</span></p> -->
+                                    <img class="price" src="assets/images/amount1.png" alt="">
+                                </li>
+                                <li class=" mt-20">
+                                    <img class="price" src="assets/images/amount2.png" alt="">
+                                    <img class="offer" src="assets/images/30off-blue.png" alt="">
+                                </li>
+                                <li class=" mt-20">
+                                    <img class="offer l-100" src="assets/images/20off-yellow.png" alt="">
+                                    <img class="price" src="assets/images/amount2.png" alt="">
+                                </li>
+                                <li class=" mt-20">
+                                    <img class="price" src="assets/images/amount2.png" alt="">
+                                    <img class="offer" src="assets/images/30off-green.png" alt="">
+                                </li>
+
+                                <li class=" center mt-40">
+                                    <p><b>Batches</b></p>
+                                </li>
+
+                                <li class=" center mt-20">
+                                    <p><img src="assets/images/tick-mark.png" alt=""> <span class="muted ml-10">No limit to no fo sessions to be booked  in a a weak </span>
+                                    </p>
+                                </li>
+
+                                <li class="select-package mt-40 mb-20"><a href=""> select a package now! </a></li>
 
                             </ul>
                         </div>
@@ -104,41 +217,47 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-4">
-                        <img class="testimonial-user" src="assets/images/kavita-tejani.png" alt="">
-                        <div>
-                            <img src="assets/images/comment-highlight.png" alt="">
-                            <div class="testimonial-content">
-                                <p class="muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla rerum
-                                    beatae quisquam
-                                    inventore quibusdam excepturi a. Placeat numquam odio, temporibus provident animi,
-                                    assumenda ipsam autem consequatur sed nesciunt obcaecati iste.</p>
-                                <p><b>kavita Tejani</b></p>
+                        <div class="testmonial-card-bg p-15">
+                            <img class="testimonial-user" src="assets/images/kavita-tejani.png" alt="">
+                            <div>
+                                <img src="assets/images/comment-highlight.png" alt="">
+                                <div class="testimonial-content">
+                                    <p class="muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla rerum
+                                        beatae quisquam
+                                        inventore quibusdam excepturi a. Placeat numquam odio, temporibus provident animi,
+                                        assumenda ipsam autem consequatur sed nesciunt obcaecati iste.</p>
+                                    <p><b>kavita Tejani</b></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <img class="testimonial-user" src="assets/images/leena-iyer.png" alt="">
-                        <div>
-                            <img src="assets/images/comment-highlight.png" alt="">
-                            <div class="testimonial-content">
-                                <p class="muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla rerum
-                                    beatae quisquam
-                                    inventore quibusdam excepturi a. Placeat numquam odio, temporibus provident animi,
-                                    assumenda ipsam autem consequatur sed nesciunt obcaecati iste.</p>
-                                <p><b>Leena Iyer</b></p>
+                        <div class="bg-shadow p-15">
+                            <img class="testimonial-user" src="assets/images/leena-iyer.png" alt="">
+                            <div>
+                                <img src="assets/images/comment-highlight.png" alt="">
+                                <div class="testimonial-content">
+                                    <p class="muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla rerum
+                                        beatae quisquam
+                                        inventore quibusdam excepturi a. Placeat numquam odio, temporibus provident animi,
+                                        assumenda ipsam autem consequatur sed nesciunt obcaecati iste.</p>
+                                    <p><b>Leena Iyer</b></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <img class="testimonial-user" src="assets/images/preeti-roy.png" alt="">
-                        <div>
-                            <img src="assets/images/comment-highlight.png" alt="">
-                            <div class="testimonial-content">
-                                <p class="muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla rerum
-                                    beatae quisquam
-                                    inventore quibusdam excepturi a. Placeat numquam odio, temporibus provident animi,
-                                    assumenda ipsam autem consequatur sed nesciunt obcaecati iste.</p>
-                                <p><b>Preeti Roy</b></p>
+                    <div class="col-lg-4 ">
+                        <div class="testmonial-card-bg p-15">
+                            <img class="testimonial-user" src="assets/images/preeti-roy.png" alt="">
+                            <div>
+                                <img src="assets/images/comment-highlight.png" alt="">
+                                <div class="testimonial-content">
+                                    <p class="muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla rerum
+                                        beatae quisquam
+                                        inventore quibusdam excepturi a. Placeat numquam odio, temporibus provident animi,
+                                        assumenda ipsam autem consequatur sed nesciunt obcaecati iste.</p>
+                                    <p><b>Preeti Roy</b></p>
+                                </div>
                             </div>
                         </div>
                     </div>
